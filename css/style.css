@@ -57,7 +57,7 @@ p{
 a{
   /*Req 4*/
   font-size: 16px;
-  color: #c12258;
+  color: #B21F50;
   text-decoration: wavy underline;
 }
 
@@ -107,8 +107,7 @@ tr:nth-child(even) {
 
 /*Req 6f*/
 tr:hover{
-  background-color: #7e0820;
-  opacity: 0.25;
+  background-color: rgba(126, 8, 32, 0.25);
 }
 
 
@@ -119,8 +118,8 @@ table{
     margin-right: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 thead tr:first-child th:first-child{
@@ -132,10 +131,10 @@ thead tr:last-child th:last-child{
   border-top-right-radius: 10px;
 }
 
-thead tr:last-child th:first-child{
+tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
 }
-thead tr:last-child th:last-child{
+tbody tr:last-child th:last-child{
   border-bottom-right-radius: 10px;
 }
 
